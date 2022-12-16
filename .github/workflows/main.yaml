@@ -28,11 +28,12 @@ jobs:
         with:
           version: v3.10.0
 
-      - name: Run chart-releaser
-        uses: helm/chart-releaser-action@v1.4.1
+      - name: Reindex repo
+        run: helm repo index --url https://public-helm-charts.naviteq.io .
+
+      - name: Publish update
+        uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          charts_dir: .
-          charts_repo_url: public-helm-charts.naviteq.io
-          skip_packaging: true
-        env:
-          CR_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
+          commit_message: "Updated from CI [skip ci]"
+          commit_user_name: Naviteq Automation
+          commit_user_email: naviteq-automation@naviteq.io
