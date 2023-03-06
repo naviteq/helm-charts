@@ -2,8 +2,18 @@ apiVersion: v1
 entries:
   curator-opensearch:
   - apiVersion: v2
+    appVersion: v0.2.5
+    created: "2023-03-06T12:08:47.152629937Z"
+    description: A Helm chart installation for the OpenSearch Curator jobs
+    digest: 789a6859fb62da4b3bef373cbbdd43a9987f579133f49cedad692f9a122511e9
+    name: curator-opensearch
+    type: application
+    urls:
+    - https://public-helm-charts.naviteq.io/curator-opensearch-0.2.5.tgz
+    version: 0.2.5
+  - apiVersion: v2
     appVersion: v0.2.4
-    created: "2023-03-03T06:33:24.47159266Z"
+    created: "2023-03-06T12:08:47.152164032Z"
     description: A Helm chart installation for the OpenSearch Curator jobs
     digest: 77e3d28a40e7cf167895e9d04d00b1b2aa10a866ab2e369be7dba9fba03f82f5
     name: curator-opensearch
@@ -13,7 +23,7 @@ entries:
     version: 0.2.4
   - apiVersion: v2
     appVersion: v0.2.3
-    created: "2023-03-03T06:33:24.471196265Z"
+    created: "2023-03-06T12:08:47.151777627Z"
     description: A Helm chart installation for the OpenSearch Curator jobs
     digest: ea657ee90ceb90c68855a2ae378b12d75859682d491c9e5c87a7553a994b5d7b
     name: curator-opensearch
@@ -23,7 +33,7 @@ entries:
     version: 0.2.3
   - apiVersion: v2
     appVersion: v0.2.2
-    created: "2023-03-03T06:33:24.470790671Z"
+    created: "2023-03-06T12:08:47.151356322Z"
     description: A Helm chart installation for the OpenSearch Curator jobs
     digest: 08833f391f0b973ad1d8d5965d53476f72c9fcdd1bacd1da2c058ec74b51ff9b
     name: curator-opensearch
@@ -33,7 +43,7 @@ entries:
     version: 0.2.2
   - apiVersion: v2
     appVersion: v0.0.1
-    created: "2023-03-03T06:33:24.470373077Z"
+    created: "2023-03-06T12:08:47.150910616Z"
     description: A Helm chart installation for the OpenSearch Curator jobs
     digest: 92e180547849a38f5dd0f0697fd13dbfd82b140b963a8c8b5039a20e1aed185f
     name: curator-opensearch
@@ -41,4 +51,4 @@ entries:
     urls:
     - https://public-helm-charts.naviteq.io/curator-opensearch-0.1.0.tgz
     version: 0.1.0
-generated: "2023-03-03T06:33:24.469752685Z"
+generated: "2023-03-06T12:08:47.150068206Z"
