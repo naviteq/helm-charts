@@ -3,7 +3,7 @@ entries:
   curator-opensearch:
   - apiVersion: v2
     appVersion: v0.2.5
-    created: "2025-02-26T15:25:50.926099118Z"
+    created: "2025-02-27T08:43:05.474725932Z"
     description: A Helm chart installation for the OpenSearch Curator jobs
     digest: 789a6859fb62da4b3bef373cbbdd43a9987f579133f49cedad692f9a122511e9
     name: curator-opensearch
@@ -13,7 +13,7 @@ entries:
     version: 0.2.5
   - apiVersion: v2
     appVersion: v0.2.4
-    created: "2025-02-26T15:25:50.925791182Z"
+    created: "2025-02-27T08:43:05.4743974Z"
     description: A Helm chart installation for the OpenSearch Curator jobs
     digest: 77e3d28a40e7cf167895e9d04d00b1b2aa10a866ab2e369be7dba9fba03f82f5
     name: curator-opensearch
@@ -23,7 +23,7 @@ entries:
     version: 0.2.4
   - apiVersion: v2
     appVersion: v0.2.3
-    created: "2025-02-26T15:25:50.925447157Z"
+    created: "2025-02-27T08:43:05.474060753Z"
     description: A Helm chart installation for the OpenSearch Curator jobs
     digest: ea657ee90ceb90c68855a2ae378b12d75859682d491c9e5c87a7553a994b5d7b
     name: curator-opensearch
@@ -33,7 +33,7 @@ entries:
     version: 0.2.3
   - apiVersion: v2
     appVersion: v0.2.2
-    created: "2025-02-26T15:25:50.925137618Z"
+    created: "2025-02-27T08:43:05.473727593Z"
     description: A Helm chart installation for the OpenSearch Curator jobs
     digest: 08833f391f0b973ad1d8d5965d53476f72c9fcdd1bacd1da2c058ec74b51ff9b
     name: curator-opensearch
@@ -43,7 +43,7 @@ entries:
     version: 0.2.2
   - apiVersion: v2
     appVersion: v0.0.1
-    created: "2025-02-26T15:25:50.924770951Z"
+    created: "2025-02-27T08:43:05.473361621Z"
     description: A Helm chart installation for the OpenSearch Curator jobs
     digest: 92e180547849a38f5dd0f0697fd13dbfd82b140b963a8c8b5039a20e1aed185f
     name: curator-opensearch
@@ -53,8 +53,18 @@ entries:
     version: 0.1.0
   http-echo-server:
   - apiVersion: v2
+    appVersion: v0.2.0
+    created: "2025-02-27T08:43:05.477218724Z"
+    description: Naviteq simple HTTP request echo server
+    digest: adf7e6404c24ab08e00600bd561d57324596895d47ededdfc9a9093ec36bac49
+    name: http-echo-server
+    type: application
+    urls:
+    - https://public-helm-charts.naviteq.io/http-echo-server-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
     appVersion: v0.1.2
-    created: "2025-02-26T15:25:50.927789514Z"
+    created: "2025-02-27T08:43:05.476604359Z"
     description: Naviteq simple HTTP request echo server
     digest: 18284b5c69685e8310856ce9a0c63da8395cc2600b5e6410e944ada0bf268a08
     name: http-echo-server
@@ -64,7 +74,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: v0.1.1
-    created: "2025-02-26T15:25:50.927250294Z"
+    created: "2025-02-27T08:43:05.47601933Z"
     description: Naviteq simple HTTP request echo server
     digest: 27912abbc6cdb1a16823c8d29f6af6d68a50f590c16c1dcf581cf68fc820ea66
     name: http-echo-server
@@ -74,7 +84,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: v0.1.0
-    created: "2025-02-26T15:25:50.926637166Z"
+    created: "2025-02-27T08:43:05.475351016Z"
     description: Naviteq simple HTTP request echo server
     digest: 118c1a0ab0019ea3e2498a2d1be7faba63db5988a66d3d02e4e092de1739322a
     name: http-echo-server
@@ -82,4 +92,4 @@ entries:
     urls:
     - https://public-helm-charts.naviteq.io/http-echo-server-0.1.0.tgz
     version: 0.1.0
-generated: "2025-02-26T15:25:50.924165127Z"
+generated: "2025-02-27T08:43:05.472826655Z"
