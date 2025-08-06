@@ -3,7 +3,7 @@ entries:
   curator-opensearch:
   - apiVersion: v2
     appVersion: v0.2.5
-    created: "2025-08-06T15:18:40.007433043Z"
+    created: "2025-08-06T15:41:08.810581832Z"
     description: A Helm chart installation for the OpenSearch Curator jobs
     digest: 789a6859fb62da4b3bef373cbbdd43a9987f579133f49cedad692f9a122511e9
     name: curator-opensearch
@@ -13,7 +13,7 @@ entries:
     version: 0.2.5
   - apiVersion: v2
     appVersion: v0.2.4
-    created: "2025-08-06T15:18:40.007124446Z"
+    created: "2025-08-06T15:41:08.810244454Z"
     description: A Helm chart installation for the OpenSearch Curator jobs
     digest: 77e3d28a40e7cf167895e9d04d00b1b2aa10a866ab2e369be7dba9fba03f82f5
     name: curator-opensearch
@@ -23,7 +23,7 @@ entries:
     version: 0.2.4
   - apiVersion: v2
     appVersion: v0.2.3
-    created: "2025-08-06T15:18:40.006802553Z"
+    created: "2025-08-06T15:41:08.809931764Z"
     description: A Helm chart installation for the OpenSearch Curator jobs
     digest: ea657ee90ceb90c68855a2ae378b12d75859682d491c9e5c87a7553a994b5d7b
     name: curator-opensearch
@@ -33,7 +33,7 @@ entries:
     version: 0.2.3
   - apiVersion: v2
     appVersion: v0.2.2
-    created: "2025-08-06T15:18:40.006473077Z"
+    created: "2025-08-06T15:41:08.809609394Z"
     description: A Helm chart installation for the OpenSearch Curator jobs
     digest: 08833f391f0b973ad1d8d5965d53476f72c9fcdd1bacd1da2c058ec74b51ff9b
     name: curator-opensearch
@@ -43,7 +43,7 @@ entries:
     version: 0.2.2
   - apiVersion: v2
     appVersion: v0.0.1
-    created: "2025-08-06T15:18:40.006135556Z"
+    created: "2025-08-06T15:41:08.809240335Z"
     description: A Helm chart installation for the OpenSearch Curator jobs
     digest: 92e180547849a38f5dd0f0697fd13dbfd82b140b963a8c8b5039a20e1aed185f
     name: curator-opensearch
@@ -54,7 +54,7 @@ entries:
   http-echo-server:
   - apiVersion: v2
     appVersion: v0.3.3
-    created: "2025-08-06T15:18:40.010697772Z"
+    created: "2025-08-06T15:41:08.813567458Z"
     description: Naviteq simple HTTP request echo server
     digest: 3236a71bfff33ad8a3271e852e884cdc0b4f85b768f63d01780ffca4d6dac495
     name: http-echo-server
@@ -64,7 +64,7 @@ entries:
     version: 0.3.3
   - apiVersion: v2
     appVersion: v0.2.0
-    created: "2025-08-06T15:18:40.009994345Z"
+    created: "2025-08-06T15:41:08.812868906Z"
     description: Naviteq simple HTTP request echo server
     digest: adf7e6404c24ab08e00600bd561d57324596895d47ededdfc9a9093ec36bac49
     name: http-echo-server
@@ -74,7 +74,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: v0.1.2
-    created: "2025-08-06T15:18:40.009338929Z"
+    created: "2025-08-06T15:41:08.812250828Z"
     description: Naviteq simple HTTP request echo server
     digest: 18284b5c69685e8310856ce9a0c63da8395cc2600b5e6410e944ada0bf268a08
     name: http-echo-server
@@ -84,7 +84,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: v0.1.1
-    created: "2025-08-06T15:18:40.00859104Z"
+    created: "2025-08-06T15:41:08.811735539Z"
     description: Naviteq simple HTTP request echo server
     digest: 27912abbc6cdb1a16823c8d29f6af6d68a50f590c16c1dcf581cf68fc820ea66
     name: http-echo-server
@@ -94,7 +94,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: v0.1.0
-    created: "2025-08-06T15:18:40.00799274Z"
+    created: "2025-08-06T15:41:08.81112699Z"
     description: Naviteq simple HTTP request echo server
     digest: 118c1a0ab0019ea3e2498a2d1be7faba63db5988a66d3d02e4e092de1739322a
     name: http-echo-server
@@ -104,8 +104,18 @@ entries:
     version: 0.1.0
   k8s-resource-simulator:
   - apiVersion: v2
+    appVersion: v0.0.3
+    created: "2025-08-06T15:41:08.814149636Z"
+    description: Naviteq K8S resource simulator
+    digest: 3e3a7c7c12cc7996bc7bc284d7cd436af2a414407d40607c9a05b155ba91f2bb
+    name: k8s-resource-simulator
+    type: application
+    urls:
+    - https://public-helm-charts.naviteq.io/k8s-resource-simulator-0.0.3.tgz
+    version: 0.0.3
+  - apiVersion: v2
     appVersion: v0.0.2
-    created: "2025-08-06T15:18:40.010992323Z"
+    created: "2025-08-06T15:41:08.813866583Z"
     description: Naviteq K8S resource simulator
     digest: 7cc579cd873bd17fd85986366420b87c028f4f8473cf7578d89aa665605ac89a
     name: k8s-resource-simulator
@@ -113,4 +123,4 @@ entries:
     urls:
     - https://public-helm-charts.naviteq.io/k8s-resource-simulator-0.0.2.tgz
     version: 0.0.2
-generated: "2025-08-06T15:18:40.005664855Z"
+generated: "2025-08-06T15:41:08.808569022Z"
